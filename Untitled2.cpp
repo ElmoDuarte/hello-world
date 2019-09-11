@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-int resultado (int num);
 int main (void)
 {
 int num;
@@ -11,7 +10,7 @@ if(num%2==0)//operador %
 printf("Par");
 }
 else
-printf("Õmpar");
+printf("√çmpar");
 
 system("pause");
 
