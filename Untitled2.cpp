@@ -1,18 +1,22 @@
-#include <stdlib.h>
 #include <stdio.h>
-int main (void)
-{
-int num;
-printf("digite um numero inteiro: ");
-scanf("%d",&num);
-if(num%2==0)//operador %
-{
-printf("Par");
-}
-else
-printf("Ímpar");
+#include <stdlib.h>
 
-system("pause");
+int main(void)
+{
 
-return 0;
+    int num1,num2;
+
+    printf ("\nInforme um numero: ");
+    scanf ("%d", &num1);
+
+    if (num1 % 2 == 0)
+        printf ("\nO numero %d foi par",num1);
+    else
+        printf("\nO numero %d foi impar",num1);
+        
+        
+        return 0;
+        
 }
+             
+       
