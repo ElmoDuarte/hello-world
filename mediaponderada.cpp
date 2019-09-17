@@ -22,7 +22,7 @@ int main(void)
   else(media <60);
   printf("\n reprovado!\t");
   
-  //Saída
+  //SaÃ­da
   printf("Media do aluno = %1.f\n",media);
   
   system("pause");
