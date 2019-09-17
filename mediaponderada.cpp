@@ -23,7 +23,7 @@ int main(void)
    printf("\n reprovado!\t");
   
   //Saída
-  printf("Media do aluno = %1.f\n",media);
+  printf("\n Media do aluno = %1.f\n",media);
   
   system("pause");
   return 0; 
