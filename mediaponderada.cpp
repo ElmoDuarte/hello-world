@@ -18,7 +18,7 @@ int main(void)
   
   media = (nota1 * 1  + nota2 * 1 + nota3 * 2);
   if (media >=60)
-   printf("aprovado!");
+   printf("\n aprovado! \t");
   else(media <60);
    printf("\n reprovado!\t");
   
