@@ -4,7 +4,7 @@
 int main(void)
 {
 
-    int num1,num2;
+    int num1;
 
     printf ("\nInforme um numero: ");
     scanf ("%d", &num1);
