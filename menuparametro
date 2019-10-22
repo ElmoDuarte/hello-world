@@ -1,0 +1,56 @@
+#include <conio.h>
+#include <stdio.h>
+
+int menu(){
+	
+	int num;
+	
+printf("Digite 1 para descobrir se o numero e par ou não \n"
+	"Digite 2 para ver o resultado da potência \n"
+	"Digite 3 para... \n"
+	"Digite 4 para ver se o ano é bissexto ou não \n"
+	"Digite 5 para descobrir a média ponderada do aluno \n"
+	"Digite 6 para descobrir a média de duas notas \n"
+	"Digite 7 para imprimir seu nome e matrícula em hexadecimal \n"
+	"Digite o menu que desejas: \n");
+	
+	scanf("%d", &num);
+	
+	return (num);
+	
+	
+	
+	
+}
+int main (){
+
+  int num;
+
+	int i = 1;
+	
+	
+	
+	while(i != 0)
+		i = menu();
+		switch(i)
+			
+			case 1:{ // questão 1.1
+			
+     int i;
+     int num1;
+
+    printf ("\nInforme um numero: ");
+    scanf ("%d", &num1);
+
+    if (num1 % 2 == 0)
+        printf ("\nO numero %d foi par",num1);
+    return(0);
+        printf("\nO numero %d foi impar",num1);
+        return(1);
+        
+        break;
+        return 0;
+        
+}
+}
+   
